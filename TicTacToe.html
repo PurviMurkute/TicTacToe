@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+    <h1 class="ttt-heading">Tic Tac Toe</h1>
+    <p class="Player-turn">Current Player: <span id="currentPlayer">X</span></p>
+    <div class="board">
+        <div class="row">
+            <div class="box" onclick="selectBox(0)">0</div>
+            <div class="box" onclick="selectBox(1)">1</div>
+            <div class="box" onclick="selectBox(2)">2</div>
+        </div>
+        <div class="row">
+            <div class="box" onclick="selectBox(3)">3</div>
+            <div class="box" onclick="selectBox(4)">4</div>
+            <div class="box" onclick="selectBox(5)">5</div>
+        </div>
+        <div class="row">
+            <div class="box" onclick="selectBox(6)">6</div>
+            <div class="box" onclick="selectBox(7)">7</div>
+            <div class="box" onclick="selectBox(8)">8</div>
+        </div>
+    </div>
+
+    <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+    <script src="ttt.js"></script>
+</body>
+</html>
