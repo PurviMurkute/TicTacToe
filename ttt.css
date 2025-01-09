@@ -4,6 +4,7 @@ body{
 
 .ttt-heading{
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .board{
@@ -21,6 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    box-shadow: 0 0 1px 1px;
 }
 
 .row{
@@ -43,4 +45,18 @@ body{
     color: #fff;
     padding: 7px 10px;
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.reset-btn:hover{
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+}
+.winnerMsg{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    padding: 10px;
+    font-size: 20px;
 }
